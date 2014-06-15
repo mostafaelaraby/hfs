@@ -1,0 +1,10 @@
+message protocole {
+  optional string fileName = 1; // holding filename in case of creation
+  optional string  ip =7;
+  optional int port = 8;
+  optional string hash = 2;
+  required string operation = 3; 
+  optional string fileList = 4;
+  optional string response = 5;
+  optional bytes data =6;
+}
